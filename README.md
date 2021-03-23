@@ -23,7 +23,7 @@ Find area of n- sided polygon using divide and conquer.
 ## How to use code
 ```
 Download project
-git clone https://github.com/D33PAK-6AJJA7A/DAA.git
+git clone https://github.com/Atithi360/DAA.git
 ```
 Project Initialize 
 ```
