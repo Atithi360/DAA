@@ -101,11 +101,10 @@ For all the cases : o(n*log(n))
 ```
 For all the cases : o(n)
 ```
-where n is no. of points present in the 2D plane.
 
 ---
 ### References
 ```
 Introduction to Divide and Conquer Technique: GFG
-Introduction to Algorithms by Cormen,Charles, Rivest and Stein.
+
 ```
