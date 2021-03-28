@@ -105,7 +105,7 @@ For all the cases : o(n)
 ---
 ### References
 ```
-Introduction to Divide and Conquer Technique: GFG<https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/>
-Shoelace Formula: wikipedia<https://en.wikipedia.org/wiki/Shoelace_formula>
+[Introduction to Divide and Conquer Technique: GFG](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
+[Shoelace Formula: wikipedia](https://en.wikipedia.org/wiki/Shoelace_formula)
 
 ```
