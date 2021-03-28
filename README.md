@@ -5,7 +5,7 @@
 |--------------|----|--------|
 |IIB2019025|Ritu Kiran Murmu|elixir-07|
 |IIB2019026|Atithi Kumari|Atithi360|
-|IIB2019027|Sahid ||
+|IIB2019027|Shahid || shahidsiddiqui786
 
 
 
@@ -82,13 +82,12 @@ Output:
 ### Theory
 Logic
 ```
-1. We sort all points according to x coordinates.
-2. Divide all points in two halves.
-3. Recursively find the smallest distances in both subarrays.
-4. Take the minimum of two smallest distances. Let the minimum be d.
-5. Create an array strip[] that stores all points which are at most d distance away from the middle line dividing the two sets.
-6. Find the smallest distance in strip[].
-7. Return the minimum of d and the smallest distance calculated in above step 6.
+1.We divide the vertex coordinate array into two half.
+2.Then recursively call for both array to compute the area1 and area2.
+3.when n == 2 that is reduced to a single side then we calculate for the all area from the side to the front axis,
+4. so that while we go for oppsite that side we subtract all area from that oppsite side to the axis and we got actual area between two side.
+5. similarly we calculate for all the sides.
+6. Then we finally add both area and  return the result. 
 ```
 
 ---
