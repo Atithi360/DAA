@@ -86,8 +86,7 @@ Logic
 2.Then recursively call for both array to compute the area1 and area2.
 3.when n == 2 that is reduced to a single side then we calculate for the all area from the side to the front axis,
 4. so that while we go for oppsite that side we subtract all area from that oppsite side to the axis and we got actual area between two side.
-5. similarly we calculate for all the sides.
-6. Then we finally add both area and  return the result. 
+5. Then we finally add all area and  return the result. 
 ```
 
 ---
