@@ -10,7 +10,6 @@ double  areaofPolygon(vector<pair<double,double> >&v, int i, int j)
     {
         double ans = v[i].first*v[j].second - v[j].first*v[i].second;
         return ans;
-        cout << ans << endl;
     }
     int mid = i+((j-i)/2);
     double area1 = areaofPolygon(v,i,mid);
