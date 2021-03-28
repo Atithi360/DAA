@@ -40,9 +40,13 @@ Run the code
 ```
 Input
 ```
+First line of input contains an integers n denoting number of side in the polygon.
+Then next n line  input contains x and y coordinates of the vertex of polygon.
+
 ```
 Ouput 
 ```
+Area of n sided polygon
 ```
 ---
 *Test case*
@@ -50,32 +54,27 @@ Ouput
 Test Case-1
 ```
 Input:
-5
+4
 0 0
-5 6
-2 1 
+0 2
+2 2 
 2 0 
-9 8 
+
 
 Output:
-1
-{2 0} and {2 1}
+4
 ```
 
 Test Case-2
 ```
 Input:
-6
+3
 2 3
-12 30
 40 50
-5 1
-12 10
 3 4
 
 Output:
-1.41421
-{2 3} and {3 4}
+4.5
 
 ```
 
