@@ -5,7 +5,7 @@
 |--------------|----|--------|
 |IIB2019025|Ritu Kiran Murmu|elixir-07|
 |IIB2019026|Atithi Kumari|Atithi360|
-|IIB2019027|Shahid || shahidsiddiqui786
+|IIB2019027|Shahid|shahidsiddiqui786|
 
 
 
