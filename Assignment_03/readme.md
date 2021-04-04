@@ -18,7 +18,8 @@
 
 ---
 ## Problem Statement
-Find area of n- sided polygon using divide and conquer.
+Locating vertically aligned points and horizontally aligned points given the points
+with XY coordinates in a Cartesian space.
 
 ---
 ## How to use code
@@ -29,7 +30,7 @@ git clone https://github.com/Atithi360/DAA.git
 Project Initialize 
 ```
 #Opening Assingment folder
-cd Assingment_02
+cd Assingment_03
 
 #Compiling The code
 ```
@@ -41,13 +42,14 @@ Run the code
 ```
 Input
 ```
-First line of input contains an integers n denoting number of side in the polygon.
-Then next n line  input contains x and y coordinates of the vertex of polygon.
+Input is generated through random integer as n numpber of point will be greater then 50
+and next n point will be generated randomly
 
 ```
 Ouput 
 ```
-Area of n sided polygon
+ x   vertical line with starting and ending point  
+ y horizontal line with starting and ending point
 ```
 ---
 *Test case*
