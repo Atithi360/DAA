@@ -33,6 +33,7 @@ Project Initialize
 cd Assingment_03
 
 #Compiling The code
+g++ locate _horizontal_OR_vertical_align point.cpp -o output
 ```
 ---
 
@@ -42,42 +43,43 @@ Run the code
 ```
 Input
 ```
-Input is generated through random integer as n numpber of point will be greater then 50
-and next n point will be generated randomly
+Input n (>= 50) is the no of points in the cartesian space, which is randomly generated 
+and the next n points will also be generated randomly.
 
 ```
 Ouput 
 ```
- x   vertical line with starting and ending point  
- y horizontal line with starting and ending point
+ x   vertical lines with starting and ending point  
+ if there are no vertical line print -1
+ 
+ y horizontal lines with starting and ending point
+ if there are no horizontal lines print -1
 ```
 ---
 *Test case*
 
 Test Case-1
 ```
-Input:
-4
-0 0
-0 2
-2 2 
-2 0 
-
-
 Output:
-4
+-403,2123 -403,-392
+74, 294 74,-586
+775,804  775,-256
+
+3116,-741 -964,-741
+427,499 935,499
+184,988 -32,988
+-692,3816 213,3816
+
 ```
 
 Test Case-2
 ```
-Input:
-3
-2 3
-40 50
-3 4
-
 Output:
-4.5
+-1
+
+320,-461 2314,-461
+34,201 569,201
+-510,762 -29,762
 
 ```
 
@@ -85,12 +87,13 @@ Output:
 ### Theory
 Logic
 ```
-1. We recursively call function to divide the polygon into sub-polygons until it is reduced to triangle, with one of it's vertex at origin.
-2. On being reduced to triangle, the area of coresponding paralleogram is calculated by taking cross product of  vertices.
-3. Then compute the area1 and area2 to conquer the overall area.
-4. In the above process, The positive and negative area will overlap and the area between origin and polygon will be cancelled to zero, which gives the area.
-5. As the above area was of parallelogram of the corresponding reduced triangles. So we divide it by 2 to obtain sum of area of thos triangles.
-```
+1. Generate the random integer value greater than 50 for n no of  point.
+2. Run the for loop n time and generate the x , y coordinates of points.
+3. In the hash map for the vertical align point store the y coordinate value corresponding to the given x key.
+4. In the hashmap for the horizontal align point store the x coordinate value corresponding to the given y key.
+5. Traverse the map for  x key if more than or equal to  3 y coordinates are available print the start and end point of the vertical align point.
+6. Traverse the map for  y key if more than or equal to  3 x coordinates are available print the start and end point of the horizontal align point.
+
 
 ---
 ### Analysis
@@ -107,8 +110,8 @@ For all the cases : o(n)
 ---
 ### References
 
-[Introduction to Divide and Conquer Technique: GFG](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
+[Map of vector](https://www.geeksforgeeks.org/map-of-vectors-in-c-stl-with-examples/)
         
-[Shoelace Formula: wikipedia](https://en.wikipedia.org/wiki/Shoelace_formula)
+[Horizontal and Vertical lines](https://www.varsitytutors.com/hotmath/hotmath_help/topics/horizontal-vertical-lines)
 
 
