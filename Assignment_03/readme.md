@@ -91,11 +91,12 @@ Logic
 2. Run the for loop n time and generate the x , y coordinates of points.
 3. In the hash map for the vertical align point store the y coordinate value corresponding to the given x key.
 4. In the hashmap for the horizontal align point store the x coordinate value corresponding to the given y key.
-5. Traverse the map for  x key if more than or equal to  3 y coordinates are available print the start and end point of the vertical align point.
-6. Traverse the map for  y key if more than or equal to  3 x coordinates are available print the start and end point of the horizontal align point.
-
-
----
+5. Traverse the map for  x key if more than or equal to  3 y coordinates are available print the start and end 
+   point of the vertical align point.
+6. Traverse the map for  y key if more than or equal to  3 x coordinates are available print the start and end
+   point of the horizontal align point.
+   
+```
 ### Analysis
 
 *Time Complexity*
