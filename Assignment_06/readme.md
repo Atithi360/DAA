@@ -1,5 +1,5 @@
 
-# Daa C2 Assingment-2
+# Daa C2 Assingment-3
 #### Team Members
 
 |Enrollment No.|Name|Github Id|
@@ -49,10 +49,10 @@ and the next n points will also be generated randomly.
 ```
 Ouput 
 ```
- x   vertical lines with starting and ending point  
+ starting and ending point x vertical lines   
  if there are no vertical line print -1
  
- y horizontal lines with starting and ending point
+ starting and ending point of y horizontal lines 
  if there are no horizontal lines print -1
 ```
 ---
