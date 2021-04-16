@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
   srand( time(0));
-    int n = 50 + (rand()%1000 );
+    int n = 50 + (rand()%10000 );
 
 	map<int,vector<int> > mx;
 	map<int,vector<int> > my;
@@ -10,7 +10,7 @@ int main(){
 	int k=0;
 	vector<pair<int,int> >v;
 	for(int i=0;i<n;i++){
-		int x=1+rand()%10000,y= 1+rand()%10000;
+		int x=rand()%10000-1000,y= rand()%10000-1000;
 	 mx[x].push_back(y);
 	 my[y].push_back(x);
 
